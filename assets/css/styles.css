@@ -140,7 +140,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+}
+.footer-list .footer-icon div{
+    display: flex;
 }
 .footer-list .footer-desc p a{
     text-decoration: none;

@@ -28,7 +28,7 @@
     }
 
 }
-@media (max-width: 767px){
+@media (max-width: 768px){
     .container{
         padding: 50px 0px;
     }
@@ -59,7 +59,6 @@
     .footer-list .footer-desc,
     .footer-list .footer-icon{
         width: 100%;
-
     }
     .footer-list .footer-desc p,
     .footer-icon .item{
