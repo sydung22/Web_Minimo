@@ -2,8 +2,16 @@
     .header-minimo .head-list{
         padding: 50px 20px;;
     }
+    .header-minimo .head-list .menu-btn{
+        display: block;
+        font-size: 30px;
+        margin-top: -13px;
+    }
     .head-list .head-nav{
         display: none;
+    }
+    .head-list .head-nav ul{
+        display: block;
     }
     .slider-minimo .img-slider{
         padding: 0;

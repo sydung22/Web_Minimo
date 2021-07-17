@@ -1,11 +1,14 @@
-body{
-    max-width:100%;
+.body{
+    max-width: 100%;
 }
 .header-minimo .head-list{
     display: flex;
     justify-content: space-between;
     padding: 50px 40px;
 
+}
+.header-minimo .head-list .menu-btn{
+    display: none;
 }
 .head-list .head-logo img{
     width: 150px;
