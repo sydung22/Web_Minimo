@@ -64,6 +64,10 @@
     .desc-list .list-item:nth-child(n+2){
         padding-top: 150px;
     }
+    .desc-list .list-item:nth-child(3) .text-desc,
+    .minimo-desc-more .list-item:nth-child(2) .text-desc{
+        padding-top: 0;
+    }
     .minimo-footer .footer-list{
         display: block;
     }
