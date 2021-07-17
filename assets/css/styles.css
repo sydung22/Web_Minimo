@@ -139,6 +139,8 @@
 .footer-list .footer-icon{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
 .footer-list .footer-desc p a{
     text-decoration: none;
