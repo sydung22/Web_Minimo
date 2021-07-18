@@ -23,7 +23,7 @@
 }
 @media (max-width: 768px){
     .header-minimo .head-list{
-        padding: 20px 20px;;
+        padding: 20px 10px;;
     }
     .header-minimo .head-list .menu-btn{
         display: block;
