@@ -1,5 +1,8 @@
-.body{
-    max-width: 100%;
+.header-minimo, .slider-minimo,
+.introduce-minimo,.minimo-desc,
+.minimo-desc-more,.minimo-footer{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .header-minimo .head-list{
     display: flex;
@@ -11,7 +14,7 @@
     display: none;
 }
 .head-list .head-logo img{
-    width: 150px;
+    width: 119px;
     height: auto;
 }
 .head-list .head-nav ul{
@@ -23,42 +26,45 @@
     line-height: 46px;
     padding: 0 50px;
     display: block;
-    font-size: 18px;
+    font-size: 14px;
+    border-bottom: 1px solid transparent;
 }
 .head-list .head-nav ul li a:hover{
     border-bottom: 1px solid #898989;
+    transition: 0.3s;
 }
 .slider-minimo .img-slider{
     padding: 0 40px;
 }
 .img-slider img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 .container{
-    padding: 50px 100px;
+    padding: 50px 183px 50px 125px;
 } 
 /* Phần chung */
 .text-cmt{
-    font-size: 20px;
+    font-size: 14px;
     padding: 30px 0 10px;
     text-transform: uppercase;
     color: #b4ad9e;
 }
 .text-title{
     text-transform: inherit;
-    padding: 0 0 30px;
+    padding: 0 0 20px;
     color: #626262;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
 }
 .text-desc{
     color: #626262;
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify;
 }
 .text-foot{
     padding: 60px 0;
-    font-size: 24px;
+    font-size: 14px;
     text-transform: uppercase;
     color: #b4ad9e;
 }
@@ -69,10 +75,10 @@
     justify-content: space-between;
 }
 .desc-list .list-item{
-    width: calc((100% - 100px)/2);
+    width: calc((100% - 50px)/2);
 }
 .desc-list .list-item:nth-child(2n){
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .desc-list .list-item:nth-child(n+3){
     padding-top: 150px;
@@ -91,9 +97,9 @@
     padding: 20px;
 }
 .minimo-signup .signup-input .signup-title{
-    padding: 10px 0 90px;
+    padding: 10px 0 80px;
     color: #333333;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
 }
 .input-form input{
@@ -101,13 +107,18 @@
     padding:8px;
     display:block;
     border:none;
-    border-bottom:1px solid #000;
-    width:100%;
+    width:calc((100% - 30px));
     font-size: 16px;
     padding-bottom: 10px;
 }
 .signup-input .input-form{
     position: relative;
+    border-bottom:1px solid #000;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.input-form input:focus{
+    outline: none;
 }
 .icon-send{
     position: absolute;
@@ -121,7 +132,7 @@
     padding: 150px 0 ;
     width: 100%;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
 }
 .btn-load-more a{
     color: #626262;
@@ -133,13 +144,12 @@
     background-color: #626262;
     color: white;
 }
-.minimo-footer{
+footer{
     background-color: #f0f0f0;
 }
 .minimo-footer .footer-list{
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
 }
 .footer-list .footer-desc,
 .footer-list .footer-icon{
@@ -158,9 +168,10 @@
 .footer-icon .item{
     margin: 0 20px;
     display: block;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 600;
 }
 .footer-icon div a{
     text-decoration: none;
-    color: #626262;
+    color: #000;
 }
