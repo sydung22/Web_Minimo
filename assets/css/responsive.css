@@ -106,9 +106,9 @@
         font-size: 16px;
     }
 }
-@media (max-width:475px){
+@media (max-width:500px){
     .minimo-footer .footer-list{
-        padding: 50px 50px;
+        padding: 50px 30px;
     }
     .footer-list .footer-desc p,
     .footer-list .footer-icon p{
