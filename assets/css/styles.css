@@ -52,8 +52,11 @@ body{
     font-size: 14px;
     padding: 30px 0 0;
     text-transform: uppercase;
-    color: #b4ad9e;
     font-family: 'Ubuntu', sans-serif;
+}
+.text-cmt a{
+    text-decoration: none;
+    color: #b4ad9e;
 }
 .text-title{
     text-transform: inherit;
@@ -74,6 +77,10 @@ body{
     text-transform: uppercase;
     color: #b4ad9e;
     font-family: 'Ubuntu', sans-serif;
+}
+.text-foot a{
+    text-decoration: none;
+    color: #b4ad9e;
 }
 /* --- */
 .desc-list{
