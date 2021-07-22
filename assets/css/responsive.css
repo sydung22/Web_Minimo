@@ -12,7 +12,7 @@
         padding: 30px 0;
     }
     .minimo-signup{
-        margin: 100px 0;
+        margin: 10px 0;
     }
     .minimo-signup .signup-input .signup-title{
         padding: 10px 0 50px;
@@ -108,7 +108,7 @@
 }
 @media (max-width:500px){
     .minimo-footer .footer-list{
-        padding: 50px 30px;
+        padding: 50px 10px;
     }
     .footer-list .footer-desc p,
     .footer-list .footer-icon p{
